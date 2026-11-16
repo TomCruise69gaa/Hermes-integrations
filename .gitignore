@@ -1,0 +1,18 @@
+# Jarvis External Integrations
+# Credentials must never be committed to Git.
+credentials/
+.env
+token.json
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OAuth secrets
+client_secret*.json
+token.json
+
+# Local logs
+logs/
